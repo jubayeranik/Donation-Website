@@ -5,6 +5,7 @@ body {
 
 h1 {
     font-size: 65px;
+    line-height: 79px;
     font-weight: 700;
 }
 
@@ -15,11 +16,23 @@ h1 {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    text-align: center;
+    color: white;
 }
 
 .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.375);
+    background-color: rgba(0, 0, 0, 0.657);
+}
+
+.cta-button {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
