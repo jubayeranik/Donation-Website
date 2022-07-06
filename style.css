@@ -188,11 +188,13 @@ p {
 .newsletter {
     text-align: center;
     align-content: center;
+    padding-top: 8%;
+    padding-bottom: 4%;
 }
 
 .news-form {
     background-color: #FFF4D6;
-    margin: 5% 20%;
+    margin: 4% 20%;
     padding: 5% 0%;
 }
 
@@ -219,4 +221,16 @@ p {
     cursor: pointer;
     border-radius: 2%;
 
+}
+
+/* footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.947);
+    text-align: center;
+    color: #ffffffc2;
+    padding: 3% 0%;
+}
+
+footer h3 {
+    color: #FF5959;
 }
