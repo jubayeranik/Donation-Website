@@ -23,8 +23,19 @@ h3 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
 p {
     font-size: 18px;
+
+}
+
+.small-p {
+    font-size: 16px;
 }
 
 /* Hero section */
@@ -51,7 +62,7 @@ p {
     padding-right: 20%;
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+    align-content: center;
 }
 
 .cta-button {
@@ -112,3 +123,43 @@ p {
 }
 
 /* Donate Plan Section */
+.dnt-plan {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.dnt-plan-texts {
+    text-align: center;
+    padding: 0 15%;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.food {
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 33.33%;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 33.33%;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 10px;
+
+}
+
+.education {
+    background-color: rgba(255, 244, 214, 1);
+    width: 33.33%;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 10px;
+}
