@@ -183,10 +183,40 @@ p {
 
 }
 
-/* newsletter form */
-input_text {
-    font-size: .8em;
-    border: none;
-    padding: 1em;
-    position: relative;
+/* newsletter section  */
+
+.newsletter {
+    text-align: center;
+    align-content: center;
+}
+
+.news-form {
+    background-color: #FFF4D6;
+    margin: 5% 20%;
+    padding: 5% 0%;
+}
+
+#email-input {
+    width: 450px;
+    max-width: 100%;
+    text-align: left;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 0px;
+    padding: 15px 0px 15px 20px;
+    font-size: 16px;
+    background-color: #F0F4EF;
+}
+
+#subscribe-button {
+    border: 0px;
+    width: 150px;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 16px;
+    color: #F0F4EF;
+    background: #FF5959;
+    cursor: pointer;
+    border-radius: 2%;
+
 }
